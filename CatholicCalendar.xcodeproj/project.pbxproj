@@ -160,6 +160,7 @@
 				TargetAttributes = {
 					B45772431E76200900D529A4 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ZC9AE4U376;
 						ProvisioningStyle = Automatic;
 					};
 					B457725C1E76200900D529A4 = {
@@ -351,10 +352,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZC9AE4U376;
 				INFOPLIST_FILE = CatholicCalendar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bortiz-prg.com.CatholicCalendar";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -362,10 +366,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZC9AE4U376;
 				INFOPLIST_FILE = CatholicCalendar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bortiz-prg.com.CatholicCalendar";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -412,6 +419,7 @@
 				B45772681E76200900D529A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B45772691E76200900D529A4 /* Build configuration list for PBXNativeTarget "CatholicCalendarTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +428,7 @@
 				B457726B1E76200900D529A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
